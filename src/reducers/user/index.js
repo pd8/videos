@@ -5,4 +5,4 @@ export default (state = null, action) => {
   }
 };
 
-export const getFirstname = ({ firstname }) => firstname;
+export const getFirstname = ({ user: { firstname } }) => firstname;
